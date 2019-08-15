@@ -1,0 +1,36 @@
+npm i -D webpack webpack-cli webpack-dev-server
+-D : dependencias de desarrollo, de forma local
+
+webpack : bundler - Arranca desde un archivo y va suiçmando todo lo que encuetre en un import o require y lo suma a la compilacion.
+dependencias : webpack webpack-cli webpack-dev-server
+defaults : {
+    entry : "./src/index.js",
+    output : {
+        filename
+    }
+}
+
+loaders : Agregan nuevos formatos y maneras de transformar modulos
+
+plugins : Agregans nuevas funcionalidades a webpack, suelen tener su propia configuracion
+
+npm i -D html-webpack-plugin
+
+npm run comando
+
+-----------------------------------------------------------------
+
+Babel : Transpilador - transforma codigo nuevo en algo mas estable.
+
+dependencias : @babel/core @babel/preset-env @babel/preset-react babel-loader
+config : .babelrc / "babel" (en package.json)
+
+npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader
+
+------------------------------------------------------------------
+Web fundamentals de google : optimizacion web
+
+threejs.org
+
+vaalentin.github.io
+
